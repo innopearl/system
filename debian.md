@@ -7,3 +7,6 @@
 ```
 git config --global http.version HTTP/1.1
 ```
+
+# Netowrk speed
+see [https://phoenixnap.com/kb/linux-network-speed-test]
