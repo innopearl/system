@@ -11,6 +11,7 @@
   }
   #sudo systemctl start docker
   ```
+- when build docker image, make sure .dockerignore in the context’s root directory. One of the key points of the Docker build context is that it includes all the files and folders of the current working directory recursively and sends them to the Docker daemon.  
 # Git
 - Try to force git to use HTTP 1.1 by setting git config like this
 ```
